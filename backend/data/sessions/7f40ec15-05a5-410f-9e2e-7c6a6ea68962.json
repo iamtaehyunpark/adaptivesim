@@ -1,0 +1,92 @@
+{
+  "id": "7f40ec15-05a5-410f-9e2e-7c6a6ea68962",
+  "worldDetails": {
+    "worldName": "End Turn Test",
+    "backgroundSettings": "The world of \"End Turn Test\" exists in the scarred aftermath of an event known only as The Sundering, a cataclysm that erased vast swathes of civilization and reshaped the very continents. Millennia later, pockets of humanity cling to existence amidst the verdant ruin and alien geometries left behind. The air is thick with the dust of forgotten empires and the silent hum of ancient, incomprehensible machinery, hinting at a past far more advanced and terrifying than current understanding allows. Resources are scarce, settlements are isolated, and the wilderness is home to strange new ecologies born from the Sundering's chaotic energies.\n\nLife is a constant struggle for survival against the environment, mutated creatures, and other desperate factions vying for control over precious relics or habitable zones. While a fragile peace may exist between some enclaves, the underlying current is one of suspicion and territoriality, punctuated by moments of tentative cooperation against greater threats. The dominant atmosphere is one of desolate beauty, immense potential for discovery, and ever-present danger, as the true nature and implications of The Sundering remain a profound and terrifying mystery waiting to be unearthed.",
+    "campaignGoal": "Uncover the true cause of The Sundering and either guide the fragmented remnants of civilization towards a unified rebirth or establish a new dominant order amidst the ruins.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "locations": [
+      {
+        "name": "The Obsidian Spire",
+        "type": "Ancient Ruin",
+        "description": "A colossal, perfectly smooth black spire piercing the clouds, believed to predate The Sundering. Radiates strange energy."
+      },
+      {
+        "name": "Whisperwind Canyon",
+        "type": "Natural Formation",
+        "description": "A deep canyon carved by ancient rivers, now home to unique flora and fauna, and rumored to contain hidden settlements."
+      },
+      {
+        "name": "Ironclad Enclave",
+        "type": "Settlement",
+        "description": "A fortified village built from salvaged metal, known for its skilled artisans and fiercely independent inhabitants."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Reclaimers",
+        "leader": "Elder Kael",
+        "description": "A nomadic group dedicated to salvaging technology and knowledge from pre-Sundering ruins, often clashing with others over discoveries.",
+        "agenda": "Restore lost knowledge and technology to rebuild society."
+      },
+      {
+        "name": "The Verdant Watchers",
+        "leader": "High Druid Lyra",
+        "description": "A nature-centric collective living in harmony with the wildlands, protecting the new ecologies and wary of technological resurgence.",
+        "agenda": "Preserve the natural world and prevent the mistakes of the past."
+      },
+      {
+        "name": "The Scavenger Lords",
+        "leader": "Baron Theron",
+        "description": "A militaristic faction that controls vital trade routes and resource nodes through force and intimidation, trading salvaged goods for power.",
+        "agenda": "Dominate trade and resources to establish a new empire."
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Resonance Shard",
+        "type": "Energy Source",
+        "origin": "Pre-Sundering Tech",
+        "description": "A crystalline fragment that pulses with an unknown energy, capable of powering ancient devices or causing localized distortions."
+      },
+      {
+        "name": "Echo Chamber Relay",
+        "type": "Communication Device",
+        "origin": "Pre-Sundering Tech",
+        "description": "A complex device that seems to faintly transmit voices or data from the distant past or parallel realities."
+      }
+    ]
+  },
+  "chatrooms": [
+    {
+      "id": "1cf51bf5-6acc-4768-bbba-f8a436e88c66",
+      "name": "activity-report",
+      "participants": [],
+      "messages": [
+        {
+          "id": "eabee67a-19ed-4035-9b74-1c9f20e8d35b",
+          "senderId": "master-action",
+          "senderName": "System Action",
+          "content": "Testing turn 1 logs",
+          "timestamp": 1772432541418
+        }
+      ]
+    }
+  ],
+  "turnLog": [
+    {
+      "id": "eabee67a-19ed-4035-9b74-1c9f20e8d35b",
+      "senderId": "master-action",
+      "senderName": "System Action",
+      "content": "Testing turn 1 logs",
+      "timestamp": 1772432541418
+    }
+  ]
+}

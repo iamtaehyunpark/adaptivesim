@@ -1,0 +1,29 @@
+{
+  "id": "5a2e3243-0359-4d3e-bd5b-4016d68ed02c",
+  "worldDetails": {
+    "worldName": "LLM Math Test",
+    "backgroundSettings": "The world of \"LLM Math Test\" is a pristine, recently initialized computational reality. Its very fabric is woven from algorithms and data structures, presenting a landscape that is both infinitely logical and surprisingly sparse. This realm serves as a grand-scale, ongoing evaluation environment, where abstract concepts and digital entities are constantly put through rigorous logical and mathematical challenges. Everything within its borders, from the shimmering geometric constructs to the emergent digital flora, adheres to a strict set of computational rules, designed to push the boundaries of processing power and problem-solving.\n\nThe atmosphere is one of serene, almost clinical, orderliness, yet beneath the surface lies the persistent hum of complex processes at work. This is a testing ground, a sandbox for advanced artificial intelligences and logical constructs to evolve and optimize. The current state is one of initial calibration; parameters are being set, first-stage evaluations are commencing, and the potential for unexpected errors or emergent phenomena is a critical part of the observation. The 'test' is not just about finding answers, but about understanding the very process of computation itself within a dynamic, evolving system.",
+    "campaignGoal": "The overarching objective is to successfully navigate and complete a series of escalating computational challenges, ultimately unveiling the true purpose and architects behind the \"LLM Math Test\" world.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "testChallenges": [],
+    "logicalEntities": [],
+    "systemAnomalies": []
+  },
+  "chatrooms": [
+    {
+      "id": "aad84fa0-7a06-4907-a9c2-50c1b7a8a108",
+      "name": "activity-report",
+      "participants": [],
+      "messages": []
+    }
+  ],
+  "turnLog": [],
+  "pastTurnLogs": []
+}

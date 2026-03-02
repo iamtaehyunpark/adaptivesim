@@ -1,0 +1,86 @@
+{
+  "id": "d2db3765-3ae9-4169-9ec5-fa9bd53062bd",
+  "worldDetails": {
+    "worldName": "State Inspectot",
+    "backgroundSettings": "The world of 'State Inspector Test' exists within the sprawling, meticulous, and often oppressive confines of the Bureaucratic Collective, a civilization utterly devoted to the principle of perfect operational integrity. Every facet of life, from the efficiency of public utilities to the emotional stability of its citizens, is subject to continuous, rigorous inspection and documentation. The State Inspectorate, an elite and omnipresent body, serves as the ultimate arbiter of compliance, ensuring that all systems run without error, deviation, or unauthorized innovation.\n\nThe atmosphere is one of sterile efficiency, where every individual understands their role within the grand machine, yet a low hum of anxiety perpetually permeates the highly regulated sectors. Currently, the entire Collective is undergoing the most critical 'Grand Efficacy Test' in recent memory, a system-wide audit designed to identify any latent inefficiencies or emerging 'anomalies' that could threaten the meticulous order. Failure to pass this test could lead to severe re-calibration, or worse, de-sanctioning, for entire sectors and their managing cadres.",
+    "campaignGoal": "Uncover the true nature of the escalating 'anomalies' detected during the Grand Efficacy Test and determine if they represent system failures, deliberate sabotage, or something entirely beyond the Collective's understanding, before the entire system is irrevocably reset.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "departments": [
+      {
+        "name": "Department of Infrastructural Harmony",
+        "mandate": "Ensuring physical and digital networks function optimally.",
+        "currentStatus": "Under intense scrutiny due to unexpected system fluctuations."
+      },
+      {
+        "name": "Department of Social Cohesion",
+        "mandate": "Monitoring citizen well-being and ideological compliance.",
+        "currentStatus": "Reporting increasing 'discrepancies' in citizen behavioral patterns."
+      },
+      {
+        "name": "Department of Archival Purity",
+        "mandate": "Maintaining the integrity and veracity of historical and current data.",
+        "currentStatus": "Suspects data corruption in core historical records."
+      }
+    ],
+    "anomalies": [
+      {
+        "id": "A-731",
+        "description": "Spontaneous power fluctuations in Sector 4-B, causing brief blackouts.",
+        "sourceDepartment": "Infrastructural Harmony",
+        "severity": "High",
+        "status": "Unresolved, escalating"
+      },
+      {
+        "id": "A-882",
+        "description": "Unsanctioned philosophical discussions detected in Recreational Hub Gamma.",
+        "sourceDepartment": "Social Cohesion",
+        "severity": "Medium",
+        "status": "Under Observation, expanding"
+      },
+      {
+        "id": "A-901",
+        "description": "Discrepancy in historical data logs regarding 'Project Chimera', date stamps are inconsistent.",
+        "sourceDepartment": "Archival Purity",
+        "severity": "Critical",
+        "status": "Classified, investigation pending"
+      }
+    ],
+    "keyPersonnel": [
+      {
+        "name": "Chief Inspector Kaelen-7",
+        "title": "Head of Grand Efficacy Test Oversight",
+        "department": "State Inspectorate",
+        "loyalty": "Absolute, but increasingly stressed"
+      },
+      {
+        "name": "Archivist Elara-3",
+        "title": "Lead Archivist, Data Integrity",
+        "department": "Archival Purity",
+        "loyalty": "Questioning, deeply concerned by data irregularities"
+      },
+      {
+        "name": "Engineer Jax-9",
+        "title": "Lead Infrastructure Analyst",
+        "department": "Infrastructural Harmony",
+        "loyalty": "Disillusioned, believes a foundational error exists"
+      }
+    ]
+  },
+  "chatrooms": [
+    {
+      "id": "4d666793-77ef-4271-93c1-19f9f827438a",
+      "name": "activity-report",
+      "participants": [],
+      "messages": []
+    }
+  ],
+  "turnLog": [],
+  "pastTurnLogs": []
+}

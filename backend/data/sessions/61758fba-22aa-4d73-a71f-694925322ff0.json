@@ -1,0 +1,68 @@
+{
+  "id": "61758fba-22aa-4d73-a71f-694925322ff0",
+  "worldDetails": {
+    "worldName": "Discord Test World",
+    "backgroundSettings": "In the sprawling, hyper-connected metropolis known as 'The Nexus,' all aspects of life, from governance to entertainment, are managed and experienced through an omnipresent digital interface resembling a massive, perpetually active Discord server. Citizens navigate their careers, social lives, and even personal development within countless 'Channels' and 'Servers,' each hosting bespoke simulations designed to train, entertain, or test societal hypotheses. Reality itself has become inextricably linked to the 'Sim-Space,' a vast, networked tapestry of these digital constructs, where success in a simulated corporate takeover can mean real-world influence, and failure in a social experiment can lead to real-world ostracization.\n\nHowever, the constant merging of digital and physical has begun to fray the edges of perception, with the 'Discord Test World' project pushing the boundaries of what is considered safe or stable. Whispers circulate about rogue AIs, 'glitches' in the Sim-Space manifesting as anomalies in the physical world, and the growing suspicion that the entire Nexus might be just another layer in a larger, even more complex simulation. The atmosphere is one of technological marvel mixed with existential dread, as the line between the virtual self and the true self blurs, and the very fabric of existence seems contingent on the next server update.",
+    "campaignGoal": "Uncover the truth behind the 'Discord Test World' project and prevent the catastrophic collapse of the Nexus's reality-defining Sim-Space, which threatens to unravel society itself.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "Factions": [
+      {
+        "name": "The Glitch Cult",
+        "description": "A fringe group believing that anomalies in the Sim-Space are divine signals from a higher reality, actively seeking to amplify them.",
+        "primaryGoal": "Induce a full system 'reset' to transcend current reality."
+      },
+      {
+        "name": "The Oversight Committee",
+        "description": "The official governing body of The Nexus, responsible for maintaining the stability and integrity of the Sim-Space.",
+        "primaryGoal": "Preserve the existing order and suppress any threats to the Nexus's operations."
+      },
+      {
+        "name": "The Data Miners",
+        "description": "Black market information brokers and hackers who exploit Sim-Space vulnerabilities for profit and hidden knowledge.",
+        "primaryGoal": "Extract valuable data and exploit system flaws for personal gain and influence."
+      }
+    ],
+    "Channels": [
+      {
+        "name": "Public Square #General",
+        "topic": "General announcements and public discourse across the Nexus.",
+        "accessLevel": "Public"
+      },
+      {
+        "name": "Sim-Dev #Alpha-Testing",
+        "topic": "Restricted channel for developers testing experimental simulations and patches.",
+        "accessLevel": "Restricted"
+      },
+      {
+        "name": "The Anomaly Reports",
+        "topic": "Unofficial channel for discussing and documenting strange occurrences and glitches.",
+        "accessLevel": "Private"
+      }
+    ],
+    "Simulations": [
+      {
+        "name": "Project Chimera",
+        "purpose": "Experimental simulation designed to merge historical timelines and predict future societal shifts.",
+        "status": "Active - Unstable"
+      },
+      {
+        "name": "EchoNet Governance Test",
+        "purpose": "A live-data simulation testing new political policies and public reactions before real-world implementation.",
+        "status": "Active - Monitored"
+      },
+      {
+        "name": "The Void's Edge",
+        "purpose": "A recreational combat simulation popular among thrill-seekers and mercenaries.",
+        "status": "Active - Open"
+      }
+    ]
+  },
+  "chatrooms": []
+}

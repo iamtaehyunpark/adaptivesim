@@ -1,0 +1,19 @@
+{
+  "id": "52c69673-5375-4dcf-9a26-4338b5955791",
+  "worldDetails": {
+    "worldName": "Test Fallback World",
+    "backgroundSettings": "The 'Test Fallback World' is a realm centuries removed from the Great Fall, a cataclysmic event that shattered the preceding golden age of civilization. Now, the landscape is a patchwork of overgrown ruins and nascent settlements, where the remnants of advanced technology or forgotten magic lie buried beneath layers of dust and time. Life is hard-won, characterized by resilient communities struggling to reclaim lost knowledge and resources, navigating dangerous wildernesses and the unpredictable legacies of the past. The air carries a constant hum of cautious optimism mixed with an underlying current of dread, as the full implications of the Fall remain an unsolved mystery, threatening to repeat itself.",
+    "campaignGoal": "The overarching objective is to uncover the true nature of the Great Fall and unite the fragmented societies of the Test Fallback World against burgeoning new threats that seek to exploit its fractured state.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "factions": [],
+    "fabledArtifacts": [],
+    "recoveringSettlements": []
+  }
+}
