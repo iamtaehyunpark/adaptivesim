@@ -1,0 +1,45 @@
+{
+  "id": "9af269bd-697f-4ef1-8afd-f81844821577",
+  "worldDetails": {
+    "worldName": "End Turn TestEnd Turn Test",
+    "backgroundSettings": "The world of \"End Turn TestEnd Turn Test\" is a realm steeped in the echoes of a forgotten golden age. Millennia ago, a cataclysm known only as the Great Silence brought an abrupt end to a technologically and magically advanced civilization, scattering its remnants across the continents and plunging the survivors into a long, dark age. Now, small pockets of humanity and other races have begun to reclaim lost knowledge and rebuild, often amidst the crumbling ruins of their forebears, whose mysterious devices and potent artifacts occasionally surface from the earth or emerge from deep, unexplored dungeons.\n\nLife in this era is a delicate balance between opportunity and peril. Vast stretches of the world remain untamed and unknown, populated by strange beasts and imbued with residual, unpredictable magical energies from the Great Silence. Settlements are often isolated, reliant on hardy explorers and merchants to connect them, and powerful factions vie for control over ancient power sources or strategic sites. The very fabric of reality sometimes feels thin, with whispers of dimensional shifts and ancient entities stirring from long slumber, hinting that the \"End Turn\" may not have been the final one, but merely a pause before a new, perhaps even greater, transformation.",
+    "campaignGoal": "The overarching goal is to uncover the true nature of the Great Silence and its impact on the world, ultimately determining the fate of a new civilization rising from the ashes of the old.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 1
+  },
+  "tables": {
+    "factions": [],
+    "locations": [],
+    "ancientArtifacts": []
+  },
+  "chatrooms": [
+    {
+      "id": "9eed2411-91af-415e-91bd-6124a9516982",
+      "name": "activity-report",
+      "participants": [],
+      "messages": [
+        {
+          "id": "a14661f1-399f-4918-b6fc-e2260c7f3773",
+          "senderId": "master-action",
+          "senderName": "System Action",
+          "content": "Testing turn 1 logs",
+          "timestamp": 1772432993919
+        }
+      ]
+    }
+  ],
+  "turnLog": [
+    {
+      "id": "a14661f1-399f-4918-b6fc-e2260c7f3773",
+      "senderId": "master-action",
+      "senderName": "System Action",
+      "content": "Testing turn 1 logs",
+      "timestamp": 1772432993919
+    }
+  ],
+  "pastTurnLogs": []
+}

@@ -1,0 +1,119 @@
+.chat-input-wrapper {
+    width: 100%;
+    padding: 4px;
+    transition: all 0.3s ease;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 24px;
+}
+
+.chat-input-wrapper:focus-within {
+    border-color: var(--accent-glow);
+    box-shadow: 0 0 15px var(--accent-glow), 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.chat-input-wrapper.action-mode-active {
+    background: rgba(45, 27, 10, 0.6);
+    /* Shift to a mechanical orange tint */
+}
+
+.chat-input-wrapper.action-mode-active:focus-within {
+    border-color: rgba(245, 158, 11, 0.5);
+    /* Amber glow */
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.4), 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.mode-toggle-bar {
+    display: flex;
+    gap: 8px;
+    padding: 8px 12px 0 12px;
+}
+
+.mode-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.mode-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.mode-btn.active {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+.mode-btn.action-style.active {
+    background: #f59e0b;
+    /* Amber */
+    border-color: #f59e0b;
+}
+
+.chat-form {
+    display: flex;
+    align-items: flex-end;
+    background: transparent;
+    padding: 8px 12px;
+    gap: 12px;
+}
+
+.chat-textarea {
+    flex: 1;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-primary);
+    resize: none;
+    outline: none;
+    padding: 4px 0;
+    max-height: 200px;
+    min-height: 24px;
+    line-height: 1.5;
+}
+
+.chat-textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.send-btn {
+    background: var(--glass-bg);
+    color: var(--text-secondary);
+    border: 1px solid transparent;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 2px;
+}
+
+.send-btn.active {
+    background: var(--accent-color);
+    color: white;
+    box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.action-mode-active .send-btn.active {
+    background: #f59e0b;
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.5);
+}
+
+.send-btn.active:hover {
+    background: var(--accent-hover);
+    transform: scale(1.05);
+}
+
+.send-btn:disabled {
+    cursor: default;
+}

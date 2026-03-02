@@ -1,0 +1,89 @@
+{
+  "id": "c7636619-2e86-476f-a442-c14f0b1fbfd4",
+  "worldDetails": {
+    "worldName": "Tariff issue",
+    "backgroundSettings": "The world is gripped by the 'Tariff Issue,' a relentless economic struggle ignited by a unilateral declaration from a powerful nation's leader, ushering in an 'era of tariff war.' This isn't just about trade; it's a global reimagining of alliances and animosities, where economic leverage has become the primary weapon. Supply chains are in disarray, consumer prices are skyrocketing in some regions while others face economic stagnation, and once-stable international relations are fraying under the strain of retaliatory duties and protectionist policies.\n\nThe atmosphere is one of anxious uncertainty, a slow-burn crisis where the threat of a full-blown economic depression looms large, and the specter of conventional conflict, though unspoken, feels increasingly present. Every nation, corporation, and individual is forced to choose sides, adapt or perish, as the economic landscape shifts beneath their feet, creating both unprecedented challenges and unforeseen opportunities for those bold or desperate enough to seize them.",
+    "campaignGoal": "Navigate the treacherous global economy and political landscape to secure prosperity or prevent catastrophic collapse amidst the ongoing tariff wars.",
+    "agentsList": []
+  },
+  "agents": {},
+  "worldData": {
+    "time": 0,
+    "turn": 2
+  },
+  "tables": {
+    "nations": [
+      {
+        "name": "",
+        "dominantTrade": "",
+        "currentTariffStatus": "",
+        "politicalStance": ""
+      }
+    ],
+    "corporations": [
+      {
+        "name": "",
+        "primaryIndustry": "",
+        "impactOfTariffs": "",
+        "keyStakeholders": ""
+      }
+    ],
+    "keyFigures": [
+      {
+        "name": "",
+        "role": "",
+        "allegiance": "",
+        "influenceLevel": ""
+      }
+    ]
+  },
+  "chatrooms": [
+    {
+      "id": "6e3d33e1-4758-4bd4-8c75-a1b03bc0384a",
+      "name": "activity-report",
+      "participants": [],
+      "messages": [
+        {
+          "id": "137f288d-1cc2-467f-b187-9eacd6281847",
+          "senderId": "master-action",
+          "senderName": "System Action",
+          "content": "Create \"US-Kor tariff rate\" table",
+          "timestamp": 1772435016311
+        },
+        {
+          "id": "92670fd2-abc8-47ee-91e5-9fa497e660a5",
+          "senderId": "master-action",
+          "senderName": "System Action",
+          "content": "the data structure for the table would be \"us-kor:float\" and \"kor-us:float\"",
+          "timestamp": 1772435068416
+        },
+        {
+          "id": "81320fb2-3804-4f03-99f8-37906f748768",
+          "senderId": "system",
+          "senderName": "Orchestrator",
+          "content": "Turn 1 Ended. Processed 2 events.",
+          "timestamp": 1772435076209
+        }
+      ]
+    }
+  ],
+  "turnLog": [],
+  "pastTurnLogs": [
+    [
+      {
+        "id": "137f288d-1cc2-467f-b187-9eacd6281847",
+        "senderId": "master-action",
+        "senderName": "System Action",
+        "content": "Create \"US-Kor tariff rate\" table",
+        "timestamp": 1772435016311
+      },
+      {
+        "id": "92670fd2-abc8-47ee-91e5-9fa497e660a5",
+        "senderId": "master-action",
+        "senderName": "System Action",
+        "content": "the data structure for the table would be \"us-kor:float\" and \"kor-us:float\"",
+        "timestamp": 1772435068416
+      }
+    ]
+  ]
+}

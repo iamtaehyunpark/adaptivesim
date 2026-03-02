@@ -1,0 +1,190 @@
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 24px;
+}
+
+.welcome-glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.4);
+    padding: 48px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    animation: fade-in-up 0.5s ease-out;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.welcome-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-pulse {
+    width: 48px;
+    height: 48px;
+    background: var(--accent-color);
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.welcome-header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    background: linear-gradient(to right, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.sessions-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sessions-list-container h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 12px;
+}
+
+.no-sessions {
+    text-align: center;
+    padding: 32px;
+    color: var(--text-secondary);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-style: italic;
+}
+
+.sessions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.session-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.session-card:hover {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: var(--accent-color);
+}
+
+.session-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.session-card-header h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.session-status {
+    font-size: 0.8rem;
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--success);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.session-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.session-card-body p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.session-id span {
+    font-family: monospace;
+    color: #a78bfa;
+}
+
+.welcome-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.create-big-btn {
+    background: linear-gradient(135deg, var(--accent-hover), var(--accent-color));
+    color: white;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px var(--accent-glow);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.create-big-btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 32px var(--accent-glow);
+}
+
+.plus-icon {
+    font-size: 1.4rem;
+    font-weight: 300;
+}

@@ -1,0 +1,93 @@
+.json-visualizer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+}
+
+.panel-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.panel-header h3 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.json-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.save-btn,
+.discard-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+}
+
+.save-btn {
+    background: var(--success);
+    color: #fff;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+}
+
+.save-btn:hover {
+    background: #16a34a;
+}
+
+.save-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.discard-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+}
+
+.discard-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+    background: var(--glass-hover);
+    color: var(--text-primary);
+}
+
+.json-content {
+    flex: 1;
+    overflow: hidden;
+    /* Monaco handles its own scrolling */
+}
