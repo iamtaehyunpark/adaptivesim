@@ -24,3 +24,17 @@ dist-ssr
 *.sw?
 
 .env
+
+# Secrets / local env (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+client_secret*.json
+GoogleService-Info.plist
+serviceAccount*.json
+
+# Build output
+.next/
